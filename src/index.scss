@@ -21,7 +21,7 @@ html {
  */
 
 body {
-  font-family: 'Schibsted Grotesk', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   margin: 0;
 }
 
@@ -178,6 +178,10 @@ button,
 input {
   /* 1 */
   overflow: visible;
+}
+
+p {
+  margin: 0;
 }
 
 /**
@@ -337,4 +341,9 @@ template {
 
 [hidden] {
   display: none;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto 0 auto;
 }

@@ -1,0 +1,16 @@
+@use 'sass:map';
+
+@import '../../../app/global/variables/colors.scss';
+
+.button {
+  background-color: map.get($primary, 'main');
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 0.8rem;
+  font-size: 1em;
+}
+
+.button:hover {
+  opacity: 0.8;
+}

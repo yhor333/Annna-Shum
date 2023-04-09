@@ -1,0 +1,29 @@
+@use 'sass:map';
+
+@import '../../../../../app/global/variables/colors.scss';
+
+.course {
+  margin-top: 3rem;
+  position: relative;
+
+  &__imgWrap {
+    .imgWrap__img {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+    .content__title {
+      padding: 0.8rem;
+      color: map.get($primary, 'light');
+    }
+  }
+}

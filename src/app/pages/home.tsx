@@ -1,8 +1,14 @@
-import { FC } from 'react';
+import { FC, Fragment } from 'react';
 import { CarouselComponent } from '../modules/carousel';
+import { Course } from '../modules/course';
 
 const HomePage: FC = () => {
-  return <CarouselComponent />;
+  return (
+    <Fragment>
+      <CarouselComponent />
+      <Course />
+    </Fragment>
+  );
 };
 
 export default HomePage;
