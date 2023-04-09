@@ -1,0 +1,29 @@
+@use 'sass:map';
+
+@import '../../../../app/global/variables/colors.scss';
+
+.carouselWrapper {
+  box-sizing: border-box;
+  position: relative;
+  min-width: 100%;
+
+  &__carouselSlide {
+    background-color: map.get($primary, 'light');
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ccc;
+  }
+
+  &__carouselLegend {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: map.get($primary, 'light');
+    padding: 5px;
+    font-size: 16px;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 4rem;
+  }
+}

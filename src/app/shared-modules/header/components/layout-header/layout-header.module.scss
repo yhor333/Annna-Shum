@@ -1,0 +1,10 @@
+@use 'sass:map';
+
+@import '../../../../../app/global/variables/colors.scss';
+
+.container {
+  display: flex;
+  background-color: map.get($primary, 'main');
+  justify-content: space-between;
+  padding: 0 1rem;
+}
