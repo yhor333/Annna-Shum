@@ -2,25 +2,29 @@ import { FC } from 'react';
 
 import CustomButton from '../../../../ui/custom-button/custom-button';
 
-import Styles from './course-styles.module.scss';
+import Styles from './characteristic-styles.module.scss';
 
-interface ICourse {
+interface ICharacteristic {
   title: string;
   img: string;
   imgDescription: string;
 }
 
-const Course: FC<ICourse> = ({ title, img, imgDescription }) => {
+const Characteristic: FC<ICharacteristic> = ({
+  title,
+  img,
+  imgDescription,
+}) => {
   return (
-    <div className={Styles.course}>
-      <div className={Styles.course__imgWrap}>
+    <div className={Styles.characteristic}>
+      <div className={Styles.characteristic__imgWrap}>
         <img
           className={Styles.imgWrap__img}
           src={img}
           alt={imgDescription}
         ></img>
       </div>
-      <div className={Styles.course__content}>
+      <div className={Styles.characteristic__content}>
         <p className={Styles.content__title}>{title}</p>
         <CustomButton title="Перейти" />
       </div>
@@ -28,4 +32,4 @@ const Course: FC<ICourse> = ({ title, img, imgDescription }) => {
   );
 };
 
-export default Course;
+export default Characteristic;
