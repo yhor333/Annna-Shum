@@ -1,12 +1,12 @@
 import { FC, Fragment } from 'react';
 import { CarouselComponent } from '../modules/carousel';
-import { Course } from '../modules/course';
+import Characteristic from '../modules/about/components/characteristics';
 
 const HomePage: FC = () => {
   return (
     <Fragment>
       <CarouselComponent />
-      <Course />
+      <Characteristic />
     </Fragment>
   );
 };
