@@ -1,4 +1,4 @@
-export interface courseModel {
+export interface AboutModel {
   title: string;
   img: string;
   imgDescription: string;
