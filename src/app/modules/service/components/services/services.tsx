@@ -7,15 +7,18 @@ import Styles from './services-styles.module.scss';
 
 const Services: FC = () => {
   return (
-    <section className={`${Styles.servicesWrap} container`}>
-      {services.map((service) => (
-        <Service
-          key={service.title}
-          img={service.img}
-          imgDescription={service.imgDescription}
-          title={service.title}
-        />
-      ))}
+    <section className={`container`}>
+      <h2 className={Styles.servicesTitle}>Послуги</h2>
+      <div className={Styles.servicesWrap}>
+        {services.map((service) => (
+          <Service
+            key={service.title}
+            img={service.img}
+            imgDescription={service.imgDescription}
+            title={service.title}
+          />
+        ))}
+      </div>
     </section>
   );
 };

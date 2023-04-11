@@ -8,7 +8,7 @@ import Styles from './characteristics-styles.module.scss';
 const Courses: FC = () => {
   return (
     <Fragment>
-      <h2>Про мене</h2>
+      <h2 className={Styles.characteristicTitle}>Про мене</h2>
       <div className={Styles.characteristicWrap}>
         {characteristics.map((item, index) => (
           <Characteristic
