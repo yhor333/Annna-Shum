@@ -2,12 +2,24 @@ import { IPage } from '../models/pageModel';
 
 const pages: IPage[] = [
   {
-    name: 'Home',
+    name: 'Головна',
     path: '/',
   },
   {
-    name: 'Catalog',
+    name: 'Про мене',
     path: '/catalog',
+  },
+  {
+    name: 'Послуги',
+    path: '/service',
+  },
+  {
+    name: 'Контакти',
+    path: '/service',
+  },
+  {
+    name: 'Блог',
+    path: '/blog',
   },
 ];
 
