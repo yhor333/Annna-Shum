@@ -5,7 +5,7 @@ interface ICharacteristicLayout {
 }
 
 const CharacteristicLayout: FC<ICharacteristicLayout> = ({ children }) => {
-  return <div className="container">{children}</div>;
+  return <section className="container">{children}</section>;
 };
 
 export default CharacteristicLayout;

@@ -28,7 +28,7 @@ const items = [
 
 const CarouselComponent: FC = () => {
   return (
-    <div className={Styles.carouselWrapper}>
+    <section className={Styles.carouselWrapper}>
       <Carousel
         autoPlay={true}
         infiniteLoop={true}
@@ -53,7 +53,7 @@ const CarouselComponent: FC = () => {
           </div>
         ))}
       </Carousel>
-    </div>
+    </section>
   );
 };
 
