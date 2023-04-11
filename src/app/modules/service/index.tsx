@@ -1,1 +1,3 @@
-export const a = 1;
+import Service from './components/service';
+
+export { Service };

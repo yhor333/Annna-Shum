@@ -1,12 +1,15 @@
 import { FC, Fragment } from 'react';
+
 import { CarouselComponent } from '../modules/carousel';
-import Characteristic from '../modules/about/components/characteristics';
+import { AboutMe } from '../modules/about-me';
+import { Service } from '../modules/service';
 
 const HomePage: FC = () => {
   return (
     <Fragment>
       <CarouselComponent />
-      <Characteristic />
+      <AboutMe />
+      <Service />
     </Fragment>
   );
 };
