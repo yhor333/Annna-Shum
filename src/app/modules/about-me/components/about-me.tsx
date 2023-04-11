@@ -3,7 +3,7 @@ import { FC } from 'react';
 import Characteristics from './characteristics/characteristics';
 import CharacteristicLayout from './characteristic-layout/characteristic-layout';
 
-const Characteristic: FC = () => {
+const AboutMe: FC = () => {
   return (
     <CharacteristicLayout>
       <Characteristics />
@@ -11,4 +11,4 @@ const Characteristic: FC = () => {
   );
 };
 
-export default Characteristic;
+export default AboutMe;
