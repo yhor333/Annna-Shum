@@ -1,21 +1,21 @@
-import { courseModel } from '../models/courseModel';
+import { characteristicModel } from '../models/characteristicModel';
 
-const courses: courseModel[] = [
+const characteristics: characteristicModel[] = [
   {
-    title: 'Course',
+    title: 'Мій світогляд',
     img: 'https://i.pinimg.com/564x/f3/cc/5c/f3cc5c7569851b09738d2941ae008179.jpg',
     imgDescription: 'Course',
   },
   {
-    title: 'Course',
+    title: 'Досвід роботи',
     img: 'https://i.pinimg.com/564x/f3/cc/5c/f3cc5c7569851b09738d2941ae008179.jpg',
     imgDescription: 'Course',
   },
   {
-    title: 'Course',
+    title: 'Освіта',
     img: 'https://i.pinimg.com/564x/f3/cc/5c/f3cc5c7569851b09738d2941ae008179.jpg',
     imgDescription: 'Course',
   },
 ];
 
-export default courses;
+export default characteristics;
