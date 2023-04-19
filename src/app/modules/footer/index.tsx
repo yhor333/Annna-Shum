@@ -1,1 +1,3 @@
-export const a = 1;
+import Footer from './components/footer';
+
+export { Footer };
