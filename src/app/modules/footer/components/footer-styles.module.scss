@@ -1,0 +1,16 @@
+@use 'sass:map';
+
+@import '../../../../app/global/variables/colors.scss';
+
+.wrap {
+  background-color: map.get($secondary, 'main');
+  padding-top: 3rem;
+}
+
+.footer {
+  display: flex;
+
+  & > div {
+    width: 25%;
+  }
+}
